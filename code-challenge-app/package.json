@@ -1,0 +1,38 @@
+{
+  "name": "code-challenge-app",
+  "version": "1.0.0",
+  "description": "React-Redux front end for code challenge",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "author": "Oscar Falcon",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.6.0",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^2.1.5",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "dependencies": {
+    "@material-ui/core": "1.5.0",
+    "@material-ui/icons": "^2.0.2",
+    "axios": "^0.18.0",
+    "material-ui": "^0.20.2",
+    "material-ui-search-bar": "^0.4.2",
+    "react": "^16.4.2",
+    "uuid": "^3.1.0"
+  }
+}

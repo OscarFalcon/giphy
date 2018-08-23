@@ -1,0 +1,24 @@
+description = 'API for saving GIFs'
+
+buildscript {
+    repositories {
+        maven { url "https://repo.maven.apache.org/maven2/" }
+    }
+}
+
+apply plugin: 'war'
+
+
+repositories {
+    maven { url "https://repo.maven.apache.org/maven2/" }
+}
+
+war {
+    archiveName 'code-challenge-giphy.war'
+}
+
+dependencies{
+    compile group: 'javax', name: 'javaee-api', version: '7.0'
+
+    testCompile 'junit:junit:4.12'
+}
